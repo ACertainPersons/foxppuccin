@@ -1,0 +1,94 @@
+/*This will be updated more in the future now that I know how to */
+
+:root {
+  --red: #f38ba8;
+  --peach: #fab387;
+  --yellow: #f9e2af;
+  --green: #a6e3a1;
+  --teal: #94e2d5;
+  --blue: #89b4fa;
+  --lavender: #b4befe;
+  --text: #cdd6f4;
+  --subtext1: #bac2de;
+  --subtext0: #a6adc8;
+  --overlay2: #9399b2;
+  --surface2: #585b70;
+  --surface1: #45475a;
+  --surface0: #313244;
+  --base: #1e1e2e;
+  --mantle: #181825;
+  --crust: #11111b;
+  
+  --toolbar-field-background-color: var(--surface0)!important; /* To change the colour of the url bar */
+  
+  --toolbarbutton-border-radius: 20px !important; /* Rounded toolbar buttons */
+  --tab-border-radius: 500px !important; /* Making rounded new tab button */
+}
+
+
+
+#titlebar {
+  background-color: var(--mantle)!important;
+}
+
+/*Rounded tabs*/
+.tab-background {
+  border-radius: 500px !important;
+}
+
+/* background colour of active tab */
+.tab-background[selected]{
+  background-image: none !important;
+  background-color: var(--green) !important;
+}
+
+/* Updates the text of the active tab */
+.tab-label-container[selected] {
+  color: var(--crust) !important;
+}
+
+/* Changes the colour of the close button */
+.tab-close-button.close-icon[selected] {
+  color: var(--crust) !important; 
+}
+
+/* For Title bar colours */
+.browser-toolbar {
+  &:not(.titlebar-color) {
+    background-color: var(--mantle) !important;
+    color: var(--text);
+  }
+}
+
+
+/* From https://github.com/zvuc/firefox-macos-native-tabbar/blob/master/macos-native-tabbar.css for transparency*/
+
+:root:not(:-moz-window-inactive) #navigator-toolbox {
+  background-color: transparent !important; 
+}
+
+:root #TabsToolbar,
+:root #titlebar,
+:root #tabbrowser-tabs {
+   -moz-appearance: -moz-mac-vibrant-titlebar-light !important;
+   -moz-appearance: -moz-mac-source-list !important;
+   background-color: transparent !important;
+}
+/*end*/
+
+@media only screen and (max-width: 1432px){
+  #search-container {
+    display: none !important;
+  }
+}
+
+#urlbar[focused="true"]:not([suppress-focus-border]) > #urlbar-background,
+#searchbar:focus-within {
+  --toolbar-field-focus-border-color: var(--blue); /* To make the searchbar outline catppuccin blue */
+}
+
+/* To change the color of the url bar */ 
+#urlbar-background, #searchbar {
+  background-color: var(--surface0) !important;
+}
+
