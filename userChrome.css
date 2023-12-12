@@ -20,18 +20,20 @@
   --crust: #11111b;
   
   --toolbar-field-background-color: var(--surface0)!important; /* To change the colour of the url bar */
+  --toolbar-color: var(--text) !important;
   
   --toolbarbutton-border-radius: 20px !important; /* Rounded toolbar buttons */
   --tab-border-radius: 500px !important; /* Making rounded new tab button */
+  --toolbarbutton-icon-fill: var(--text) !important; /* Changing the colour of icons */
 }
 
 
-
+/* Change the title bar colour */
 #titlebar {
   background-color: var(--mantle)!important;
 }
 
-/*Rounded tabs*/
+/* Rounded tabs*/
 .tab-background {
   border-radius: 500px !important;
 }
@@ -92,3 +94,24 @@
   background-color: var(--surface0) !important;
 }
 
+/* Hide the search bars buddon */
+#alltabs-button {
+  display: none;
+}
+
+/* Changing the urlbar text clour */
+#urlbar-input, #urlbar-scheme, .searchbar-textbox {
+  color: var(--text) !important;
+}
+
+/* Chaning the colour of the search icon */
+#urlbar, #searchbar {
+  color: var(--text) !important;
+}
+
+/* Changing the colour of the unused tabs */
+#navigator-toolbox {
+  &:-moz-lwtheme {
+    color: var(--subtext0) !important;
+  }
+}
