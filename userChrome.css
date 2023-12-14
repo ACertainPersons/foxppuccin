@@ -115,3 +115,19 @@
     color: var(--subtext0) !important;
   }
 }
+
+
+/* To change the ctrl-F bar */
+findbar {
+  background: var(--mantle) !important;
+    background-position-y: 0%;
+}
+
+..checkbox-check {
+  border-radius: 500px;
+}
+
+findbar-textbox {
+  border-radius: 200px !important;
+}
+/* More work needed */
