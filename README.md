@@ -1,6 +1,6 @@
 # foxppuccin
 
-An unfinished Firefox skin based on the Catppuccin Mocha Green theme
+An **unfinished** Firefox skin based on the Catppuccin Mocha Green theme
 
 (Yes I am aware that <a href="https://github.com/catppuccin/firefox">catppuccon/firefox</a> exists. But that's just a colour theme whereas this is a whole mod)
 
