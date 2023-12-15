@@ -120,14 +120,22 @@
 /* To change the ctrl-F bar */
 findbar {
   background: var(--mantle) !important;
-    background-position-y: 0%;
+  background-position-y: 0%;
 }
 
-..checkbox-check {
-  border-radius: 500px;
+.checkbox-check {
+  border-radius: 500px !important;;
 }
 
-findbar-textbox {
-  border-radius: 200px !important;
+.findbar-textbox {
+  border-radius: 500px !important;
 }
-/* More work needed */
+
+.checkbox-check[checked] {
+  background-color: var(--green) !important;
+  fill: var(--mantle) !important;
+}
+
+.close-icon, .findbar-find-previous, .findbar-find-next {
+  border-radius: 500px !important;
+}
