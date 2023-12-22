@@ -4,7 +4,7 @@ An **unfinished** Firefox skin based on the Catppuccin Mocha Green theme
 
 (Yes I am aware that <a href="https://github.com/catppuccin/firefox">catppuccon/firefox</a> exists. But that's just a colour theme whereas this is a whole mod)
 
-Only works on MacOS currently
+This should work on both MacOS and Linux. Windows have not been tested yet.
 
 Will be ported to other OSes soon
 

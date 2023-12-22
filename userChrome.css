@@ -63,7 +63,7 @@
 }
 
 
-/* From https://github.com/zvuc/firefox-macos-native-tabbar/blob/master/macos-native-tabbar.css for transparency*/
+/* From https://github.com/zvuc/firefox-macos-native-tabbar/blob/master/macos-native-tabbar.css for transparency
 
 :root:not(:-moz-window-inactive) #navigator-toolbox {
   background-color: transparent !important; 
@@ -76,7 +76,7 @@
    -moz-appearance: -moz-mac-source-list !important;
    background-color: transparent !important;
 }
-/*end*/
+end*/
 
 @media only screen and (max-width: 1432px){
   #search-container {
