@@ -20,7 +20,7 @@ Then run: (Replace \<Your Profile> with the profile found above)
 ```
 cd <Your Profile>
 git clone https://github.com/ACertainPersons/foxppuccin.git
-mv foxppuccin userchrome
+mv foxppuccin chrome
 ```
 
 ## Contributions
