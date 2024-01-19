@@ -62,9 +62,6 @@
   }
 }
 
-
-/* From https://github.com/zvuc/firefox-macos-native-tabbar/blob/master/macos-native-tabbar.css for transparency
-
 :root:not(:-moz-window-inactive) #navigator-toolbox {
   background-color: transparent !important; 
 }
