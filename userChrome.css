@@ -62,19 +62,6 @@
   }
 }
 
-:root:not(:-moz-window-inactive) #navigator-toolbox {
-  background-color: transparent !important; 
-}
-
-:root #TabsToolbar,
-:root #titlebar,
-:root #tabbrowser-tabs {
-   -moz-appearance: -moz-mac-vibrant-titlebar-light !important;
-   -moz-appearance: -moz-mac-source-list !important;
-   background-color: transparent !important;
-}
-end*/
-
 @media only screen and (max-width: 1432px){
   #search-container {
     display: none !important;
