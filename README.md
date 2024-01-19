@@ -4,15 +4,14 @@ An **unfinished** Firefox skin based on the Catppuccin Mocha Green theme
 
 (Yes I am aware that <a href="https://github.com/catppuccin/firefox">catppuccon/firefox</a> exists. But that's just a colour theme whereas this is a whole mod)
 
-**The latest Firefox update broke the transparency on MacOS, so please switch to the linux branch after the `git clone` command with the `git checkout linux` command**
-
-Will be ported to other OSes soon
 
 ## Sample Image
 <img src="images/demo1.png" alt="demo">
 <img src="images/demo2.png" alt="justbar">
 
 ## Installation
+
+Note: Currently, these instructions only work on MacOS and Linux
 
 First find your profile by going to <a href="https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data#w_how-do-i-find-my-profile">https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data#w_how-do-i-find-my-profile</a>
 
