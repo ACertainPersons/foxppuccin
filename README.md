@@ -6,8 +6,8 @@ An **unfinished** Firefox skin based on the Catppuccin Mocha Green theme
 
 
 ## Sample Image
-<img src="images/demo1.png" alt="demo">
-<img src="images/demo2.png" alt="justbar">
+<img src="images/demo.png" alt="demo">
+<img src="images/demobar.png" alt="justbar">
 
 ## Installation
 
