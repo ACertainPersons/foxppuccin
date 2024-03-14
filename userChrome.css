@@ -22,11 +22,14 @@
   --toolbar-field-background-color: var(--surface0)!important; /* To change the colour of the url bar */
   --toolbar-color: var(--text) !important;
   
-  --toolbarbutton-border-radius: 20px !important; /* Rounded toolbar buttons */
+  --toolbarbutton-border-radius: 20px !important; /* rounded toolbar buttons */
   --tab-border-radius: 500px !important; /* Making rounded new tab button */
   --toolbarbutton-icon-fill: var(--text) !important; /* Changing the colour of icons */
 }
 
+* {
+  border-radius: 20px !important;
+  }
 
 /* Change the title bar colour */
 #titlebar {
